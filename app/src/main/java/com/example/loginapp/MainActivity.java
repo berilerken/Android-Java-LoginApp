@@ -15,9 +15,9 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
-    TextView email_txt;
-    TextView password_txt;
-    boolean isAllFieldsChecked = false;
+    static TextView email_txt;
+    static TextView password_txt;
+    static boolean isAllFieldsChecked = false;
 
 
     @Override
